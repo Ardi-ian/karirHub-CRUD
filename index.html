@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KarirHub - Portal Lowongan Kerja</title>
+  <link rel="icon" href="assets/img/logo.png" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="brand">
+        <img src="assets/img/logo.png" alt="Logo KarirHub" />
+        <span>KarirHub</span>
+      </a>
+
+      <ul class="menu">
+        <li><a href="#lowongan">Lowongan</a></li>
+        <li><a href="#kategori">Kategori</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="label">Portal Lowongan Kerja</p>
+        <h1>Temukan pekerjaan yang sesuai dengan minat dan keahlianmu.</h1>
+        <p>
+          KarirHub membantu pencari kerja melihat daftar lowongan, informasi perusahaan,
+          tipe pekerjaan, gaji, deadline, dan detail posisi secara praktis.
+        </p>
+
+        <form class="search-box" action="#lowongan">
+          <input type="text" placeholder="Cari posisi atau perusahaan" />
+          <select>
+            <option>Semua Tipe</option>
+            <option>Full-time</option>
+            <option>Remote</option>
+            <option>Hybrid</option>
+          </select>
+          <button type="submit">Cari</button>
+        </form>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/img/orang.png" alt="Ilustrasi daftar lowongan kerja" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section container" id="kategori">
+      <div class="section-title">
+        <p class="label">Kategori</p>
+        <h2>Kategori pekerjaan populer</h2>
+      </div>
+
+      <div class="category-grid">
+        <article>
+          <h3>Teknologi</h3>
+          <p>Web Developer, UI/UX Designer, Data Analyst</p>
+        </article>
+        <article>
+          <h3>Administrasi</h3>
+          <p>Staff Admin, Customer Service, Data Entry</p>
+        </article>
+        <article>
+          <h3>Marketing</h3>
+          <p>Digital Marketing, Content Creator, Sales</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light" id="lowongan">
+      <div class="container">
+        <div class="section-title">
+          <p class="label">Halaman List</p>
+          <h2>Daftar lowongan kerja</h2>
+          <p class="muted">
+            Tabel berisi judul posisi, nama perusahaan, tipe pekerjaan, gaji, dan deadline.
+          </p>
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Judul Posisi</th>
+                <th>Nama Perusahaan</th>
+                <th>Tipe Pekerjaan</th>
+                <th>Gaji</th>
+                <th>Deadline</th>
+                <th>Detail</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Junior Web Developer</td>
+                <td>PT Nusantara Digital</td>
+                <td><span class="badge">Full-time</span></td>
+                <td>Rp 5.000.000 - Rp 7.000.000</td>
+                <td>30 Mei 2026</td>
+                <td><a class="link-detail" href="detail.html">Lihat</a></td>
+              </tr>
+              <tr>
+                <td>UI/UX Designer</td>
+                <td>Kreativa Studio</td>
+                <td><span class="badge remote">Remote</span></td>
+                <td>Rp 4.500.000 - Rp 6.500.000</td>
+                <td>12 Juni 2026</td>
+                <td><a class="link-detail" href="detail.html">Lihat</a></td>
+              </tr>
+              <tr>
+                <td>Staff Administrasi</td>
+                <td>CV Makmur Jaya</td>
+                <td><span class="badge">Full-time</span></td>
+                <td>Rp 3.200.000 - Rp 4.200.000</td>
+                <td>20 Juni 2026</td>
+                <td><a class="link-detail" href="detail.html">Lihat</a></td>
+              </tr>
+              <tr>
+                <td>Digital Marketing</td>
+                <td>Bright Media</td>
+                <td><span class="badge hybrid">Hybrid</span></td>
+                <td>Rp 4.000.000 - Rp 5.500.000</td>
+                <td>25 Juni 2026</td>
+                <td><a class="link-detail" href="detail.html">Lihat</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="note">
+        
+          
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="kontak">
+    <div class="container footer-content">
+      <div>
+        <h2>KarirHub</h2>
+        <p>Portal lowongan kerja sederhana untuk menampilkan informasi pekerjaan.</p>
+      </div>
+      <div>
+        <p>Email: muhamadnurardi@gmail.com</p>
+        <p>Telepon: 0857-7804-4530</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
